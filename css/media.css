@@ -1,0 +1,102 @@
+@media (max-width: 992px) {
+  .main-info-list {
+    justify-content: space-between;
+  }
+
+  .section-main-content {
+    width: 80%;
+  }
+
+  .main-info {
+    width: 80%;
+  }
+
+  .content-title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 60px */
+    margin-bottom: 10px;
+  }
+
+  .content-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 36px */
+    margin-bottom: 10px;
+  }
+
+  .main-btn-grad,
+  .main-btn {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(151, 105, 194);
+    color: #fff;
+    margin-bottom: 2cm;
+  }
+
+  .main-btn-grad:hover,
+  .main-btn:hover {
+    background-color: green;
+    color: gold;
+  }
+
+  .main-btn-grad {
+    margin-right: 20px;
+  }
+
+  .main-btn {
+    background-color: chocolate;
+  }
+
+  .item-number {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .item-info {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .section-main .row {
+    align-items: center;
+    padding: 20px;
+  }
+
+  .navbar {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .card-name-left,
+  .card-name-right {
+    color: var(--half-white, rgba(255, 255, 255, 0.5));
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    
+  }
+
+  .card-title-left,
+  .card-title-right {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+  }
+}
